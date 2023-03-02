@@ -6,7 +6,7 @@ provider "aws" {
 
 variable "access_key" {
 }
-varible "secret_key" {
+variable "secret_key" {
 }
 
 resource "aws_db_instance" "default" {
