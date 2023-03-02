@@ -4,10 +4,10 @@ provider "aws" {
 #   secret_key = var.secret_key
 }
 
-# variable "access_key" {
-# }
-# variable "secret_key" {
-# }
+variable "user" {
+}
+variable "password" {
+}
 
 resource "aws_db_instance" "default" {
   allocated_storage    = 10
